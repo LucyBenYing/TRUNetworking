@@ -19,17 +19,19 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+yes,this is the description of lbys first podspec.
+so nice to see you here.
                        DESC
 
-  s.homepage         = 'https://github.com/lby/TRUNetworking'
+  s.homepage         = 'https://github.com/LucyBenYing/libs.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lby' => 'lbylubenying@163.com' }
-  s.source           = { :git => 'https://github.com/lby/TRUNetworking.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LucyBenYing/libs.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.swift_version = '4.0'
   s.source_files = 'TRUNetworking/Classes/**/*'
   
   # s.resource_bundles = {
